@@ -42,12 +42,14 @@ I specialize in the integrations layer: the code that moves data reliably betwee
 - Ship production-grade code, not prototypes — typed, tested, documented
 - Built integrations that process millions of events without drift or data loss
 - Background in entrepreneurial product development — I care about the business outcome, not just the ticket
-- Available for Upwork contracts: [upwork.com/freelancers/~josephrounds](https://www.upwork.com/freelancers/~josephrounds) *(update link)*
+- Founder of [Lighthouse Consulting](https://www.lighthouseconsult.com) — custom software, e-commerce, DevOps, and IT consulting out of Boston, MA
+- Available for Upwork contracts: [upwork.com/freelancers/~josephrounds](https://www.upwork.com/freelancers/~josephrounds) *
 
 ---
 
 <p align="center">
-  <a href="mailto:dalerks@gmail.com">dalerks@gmail.com</a> &nbsp;·&nbsp;
+  <a href="mailto:jrounds@lighthouseconsult.com">jrounds@lighthouseconsult.com</a> &nbsp;·&nbsp;
+  <a href="https://www.lighthouseconsult.com">lighthouseconsult.com</a> &nbsp;·&nbsp;
   <a href="https://github.com/dalerks">GitHub</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/josephrounds">LinkedIn</a>
 </p>
