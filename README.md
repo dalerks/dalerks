@@ -36,6 +36,7 @@ I specialize in the integrations layer: the code that moves data reliably betwee
 | [ecommerce-integration-starter](https://github.com/dalerks/ecommerce-integration-starter) | Next.js · TypeScript · Supabase · Webhooks | Full OAuth + webhook + product sync starter — deploy to Vercel in minutes |
 | [django-webhook-processor](https://github.com/dalerks/django-webhook-processor) | Python · Django · Celery · Redis · PostgreSQL | Async webhook pipeline — HMAC verify, idempotent storage, Celery workers with retry |
 | [shopify-webhook-demo](https://github.com/dalerks/shopify-webhook-demo) | Node.js · TypeScript · Shopify API | OAuth install flow, HMAC-verified webhook receiver, order processing |
+| [shopadmin-dashboard](https://github.com/dalerks/shopadmin-dashboard) | Next.js · TypeScript · Tailwind | Ecommerce admin UI — KPI cards, SVG revenue chart, orders table, dark sidebar |
 
 > More projects shipping soon — AWS Lambda event pipeline, AI tool-calling demo.
 
