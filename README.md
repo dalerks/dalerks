@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat&logo=postman&logoColor=white" />
   <img src="https://img.shields.io/badge/Webhooks-6366F1?style=flat" />
   <img src="https://img.shields.io/badge/AI%2FLLM-7B3FE4?style=flat&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
 </p>
 
 ---
