@@ -37,8 +37,8 @@ I specialize in the integrations layer: the code that moves data reliably betwee
 | [django-webhook-processor](https://github.com/dalerks/django-webhook-processor) | Python · Django · Celery · Redis · PostgreSQL | Async webhook pipeline — HMAC verify, idempotent storage, Celery workers with retry |
 | [shopify-webhook-demo](https://github.com/dalerks/shopify-webhook-demo) | Node.js · TypeScript · Shopify API | OAuth install flow, HMAC-verified webhook receiver, order processing |
 | [shopadmin-dashboard](https://github.com/dalerks/shopadmin-dashboard) | Next.js · TypeScript · Tailwind | Ecommerce admin UI — KPI cards, SVG revenue chart, orders table, dark sidebar |
-
-> More projects shipping soon — AWS Lambda event pipeline, AI tool-calling demo.
+| [aws-lambda-event-pipeline](https://github.com/dalerks/aws-lambda-event-pipeline) | AWS Lambda · SQS · DynamoDB · SAM | Event-driven order pipeline — async ingest, FIFO queuing, partial batch failure handling |
+| [ai-tool-calling-demo](https://github.com/dalerks/ai-tool-calling-demo) | Node.js · TypeScript · Claude SDK | AI agent with multi-turn tool calling — order lookup, product search, discount calc |
 
 ---
 
