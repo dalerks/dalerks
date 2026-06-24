@@ -14,6 +14,7 @@
   <img src="https://img.shields.io/badge/AI%2FLLM-7B3FE4?style=flat&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white" />
 </p>
 
 ---
@@ -33,9 +34,10 @@ I specialize in the integrations layer: the code that moves data reliably betwee
 | Project | Stack | What it solves |
 |---|---|---|
 | [ecommerce-integration-starter](https://github.com/dalerks/ecommerce-integration-starter) | Next.js · TypeScript · Supabase · Webhooks | Full OAuth + webhook + product sync starter — deploy to Vercel in minutes |
-| [shopify-webhook-demo](https://github.com/dalerks/shopify-webhook-demo) | Node.js · Shopify API | OAuth install flow, HMAC-verified webhook receiver, order processing |
+| [django-webhook-processor](https://github.com/dalerks/django-webhook-processor) | Python · Django · Celery · Redis · PostgreSQL | Async webhook pipeline — HMAC verify, idempotent storage, Celery workers with retry |
+| [shopify-webhook-demo](https://github.com/dalerks/shopify-webhook-demo) | Node.js · TypeScript · Shopify API | OAuth install flow, HMAC-verified webhook receiver, order processing |
 
-> More projects shipping this month — AWS Lambda event pipeline, AI tool-calling demo.
+> More projects shipping soon — AWS Lambda event pipeline, AI tool-calling demo.
 
 ---
 
