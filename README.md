@@ -43,7 +43,7 @@ I specialize in the integrations layer: the code that moves data reliably betwee
 - Built integrations that process millions of events without drift or data loss
 - Background in entrepreneurial product development — I care about the business outcome, not just the ticket
 - Founder of [Lighthouse Consulting](https://www.lighthouseconsult.com) — custom software, e-commerce, DevOps, and IT consulting out of Boston, MA
-- Available for Upwork contracts: [upwork.com/freelancers/~josephrounds](https://www.upwork.com/freelancers/~josephrounds) *
+- Available for Upwork contracts: [upwork.com/freelancers/~josephrounds](https://www.upwork.com/freelancers/jrounds) *
 
 ---
 
