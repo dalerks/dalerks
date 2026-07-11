@@ -74,9 +74,9 @@ flowchart LR
 
 ## Client work — case studies
 
-- [HIPAA-Compliant Patient Portal](https://www.lighthouseconsult.com/case-studies/healthcare-patient-portal/) — healthcare platform architecture, compliance, and privacy-conscious design
-- [Legacy Storefront Re-Platform](https://www.lighthouseconsult.com/case-studies/ecommerce-replatform/) — ecommerce migration, integration, and performance improvements
-- [Order Management & Routing Platform](https://www.lighthouseconsult.com/case-studies/logistics-order-management/) — logistics, event-driven order processing, and system design
+- [HIPAA-Compliant Patient Portal →](https://www.lighthouseconsult.com/case-studies/healthcare-patient-portal/) — healthcare platform architecture, compliance, and privacy-conscious design
+- [Legacy Storefront Re-Platform →](https://www.lighthouseconsult.com/case-studies/ecommerce-replatform/) — ecommerce migration, integration, and performance improvements
+- [Order Management & Routing Platform →](https://www.lighthouseconsult.com/case-studies/logistics-order-management/) — logistics, event-driven order processing, and system design
 
 More write-ups at [lighthouseconsult.com](https://www.lighthouseconsult.com/#case-studies).
 
