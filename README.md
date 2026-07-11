@@ -32,11 +32,20 @@ Most of my production work is private because it belongs to employers and client
 - **Healthcare technology** — secure backend services, benefits and third-party data integrations, auditability, and privacy-conscious system design
 - **AI-enabled workflows** — production-oriented tool calling and automation embedded in TypeScript services
 
+## Flagship project
+
+**[AWS Lambda Event Pipeline](https://github.com/dalerks/aws-lambda-event-pipeline)** — a production-oriented reference architecture for an event-driven order pipeline (API Gateway → Lambda → SQS FIFO → Lambda → DynamoDB), built to the same standard as the systems I run for clients:
+
+- Complete infrastructure as code in **AWS SAM**, with least-privilege IAM per function
+- **GitHub Actions** CI running tests, coverage, TypeScript compilation, and SAM validation on every push
+- **Jest** unit tests covering validation, partial-batch failures, conditional writes, and idempotency
+- Documented **failure handling**: FIFO deduplication, DLQ after 3 retries, CloudWatch alarms, X-Ray tracing
+- **OpenAPI 3.0** contract, a Mermaid architecture diagram, a Dockerized reproducible build, and an explicit security-scope section describing what a production fork still needs (auth, WAF, KMS, log redaction)
+
 ## Selected work
 
 | Project | Engineering focus |
 |---|---|
-| [AWS Lambda Event Pipeline](https://github.com/dalerks/aws-lambda-event-pipeline) | Serverless order processing with Lambda, SQS FIFO, DynamoDB, AWS SAM, retries, and partial-batch failure handling |
 | [Django Webhook Processor](https://github.com/dalerks/django-webhook-processor) | HMAC verification, idempotent ingestion, Celery workers, Redis, PostgreSQL, Docker, and automated tests |
 | [Ecommerce Integration Starter](https://github.com/dalerks/ecommerce-integration-starter) | A deployable Next.js/TypeScript/Supabase integration reference with OAuth, webhooks, and product sync |
 | [Shopify Webhook Demo](https://github.com/dalerks/shopify-webhook-demo) | Shopify OAuth, webhook signature verification, order processing, and API integration patterns |
@@ -50,6 +59,14 @@ Most of my production work is private because it belongs to employers and client
 - Cloud delivery with **AWS Lambda, SQS/SNS, DynamoDB, Docker, CI/CD, and infrastructure as code**
 - Production integrations designed for high event volume, safe retries, traceability, and graceful failure recovery
 - Founder of [Lighthouse Consulting](https://www.lighthouseconsult.com), helping organizations deliver custom software, ecommerce integrations, DevOps improvements, and automation
+
+## Client work — case studies
+
+- [HIPAA-Compliant Patient Portal](https://www.lighthouseconsult.com/case-studies/healthcare-patient-portal/) — healthcare platform architecture, compliance, and privacy-conscious design
+- [Legacy Storefront Re-Platform](https://www.lighthouseconsult.com/case-studies/ecommerce-replatform/) — ecommerce migration, integration, and performance improvements
+- [Order Management & Routing Platform](https://www.lighthouseconsult.com/case-studies/logistics-order-management/) — logistics, event-driven order processing, and system design
+
+More write-ups at [lighthouseconsult.com](https://www.lighthouseconsult.com/#case-studies).
 
 ## Engineering principles
 
