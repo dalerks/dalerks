@@ -48,7 +48,7 @@ flowchart LR
     DLQ --> Alarm[CloudWatch alarm]
 ```
 
-- Complete infrastructure as code in **AWS SAM**, with least-privilege IAM per function
+- Complete infrastructure as code in **AWS SAM**, with least-privilege IAM per function and a **Docker** reproducible build
 - **GitHub Actions** CI running tests, coverage, TypeScript compilation, and SAM validation on every push
 - **Jest** unit tests covering validation, partial-batch failures, conditional writes, and idempotency
 - Documented **failure handling**: FIFO deduplication, DLQ after 3 retries, CloudWatch alarms, X-Ray tracing
