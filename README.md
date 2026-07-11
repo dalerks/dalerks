@@ -1,60 +1,54 @@
 <h1 align="center">Joseph Rounds</h1>
 
-<h3 align="center">Senior Backend Engineer &nbsp;|&nbsp; Node.js &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; AWS &nbsp;|&nbsp; API Integrations &nbsp;|&nbsp; AI Automation</h3>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat&logo=awslambda&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Webhooks-6366F1?style=flat" />
-  <img src="https://img.shields.io/badge/AI%2FLLM-7B3FE4?style=flat&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white" />
+  <strong>Senior Backend Engineer building reliable cloud systems, SaaS integrations, and healthcare technology</strong>
 </p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/josephrounds">LinkedIn</a> ·
+  <a href="https://www.lighthouseconsult.com">Lighthouse Consulting</a> ·
+  <a href="mailto:jrounds@lighthouseconsult.com">Email</a>
+</p>
 
-## What I Build
+I design and lead backend systems that move business-critical data safely between products. My work spans event-driven AWS services, API and webhook integrations, multi-tenant SaaS, and healthcare platforms built with Node.js/TypeScript and Python/Django.
 
-- **API integrations & webhook pipelines** — Shopify, Stripe, third-party SaaS platforms; OAuth flows, event-driven sync, idempotent processing
-- **Event-driven backend systems** — AWS Lambda + SQS/SNS, queue-backed workers, real-time data pipelines that scale without babysitting
-- **AI-enabled SaaS automation** — LLM tool-calling, agent workflows, and AI features embedded in production Node.js/TypeScript services
+Most of my production work is private because it belongs to employers and clients. The repositories below are focused reference implementations that demonstrate the same architecture, reliability, and security patterns without exposing proprietary code or data.
 
-I specialize in the integrations layer: the code that moves data reliably between systems, handles failures gracefully, and keeps business logic clean.
+## Current focus
 
----
+- **Cloud and event-driven architecture** — AWS Lambda, SQS/SNS, DynamoDB, retries, dead-letter handling, and observable asynchronous workflows
+- **API and SaaS integrations** — OAuth, signed webhooks, idempotency, background processing, rate limits, and failure recovery
+- **Healthcare technology** — secure backend services, benefits and third-party data integrations, auditability, and privacy-conscious system design
+- **AI-enabled workflows** — production-oriented tool calling and automation embedded in TypeScript services
 
-## Featured Projects
+## Selected work
 
-| Project | Stack | What it solves |
-|---|---|---|
-| [ecommerce-integration-starter](https://github.com/dalerks/ecommerce-integration-starter) | Next.js · TypeScript · Supabase · Webhooks | Full OAuth + webhook + product sync starter — deploy to Vercel in minutes |
-| [django-webhook-processor](https://github.com/dalerks/django-webhook-processor) | Python · Django · Celery · Redis · PostgreSQL | Async webhook pipeline — HMAC verify, idempotent storage, Celery workers with retry |
-| [shopify-webhook-demo](https://github.com/dalerks/shopify-webhook-demo) | Node.js · TypeScript · Shopify API | OAuth install flow, HMAC-verified webhook receiver, order processing |
-| [shopadmin-dashboard](https://github.com/dalerks/shopadmin-dashboard) | Next.js · TypeScript · Tailwind | Ecommerce admin UI — KPI cards, SVG revenue chart, orders table, dark sidebar |
-| [aws-lambda-event-pipeline](https://github.com/dalerks/aws-lambda-event-pipeline) | AWS Lambda · SQS · DynamoDB · SAM | Event-driven order pipeline — async ingest, FIFO queuing, partial batch failure handling |
-| [ai-tool-calling-demo](https://github.com/dalerks/ai-tool-calling-demo) | Node.js · TypeScript · Claude SDK | AI agent with multi-turn tool calling — order lookup, product search, discount calc |
+| Project | Engineering focus |
+|---|---|
+| [AWS Lambda Event Pipeline](https://github.com/dalerks/aws-lambda-event-pipeline) | Serverless order processing with Lambda, SQS FIFO, DynamoDB, AWS SAM, retries, and partial-batch failure handling |
+| [Django Webhook Processor](https://github.com/dalerks/django-webhook-processor) | HMAC verification, idempotent ingestion, Celery workers, Redis, PostgreSQL, Docker, and automated tests |
+| [Ecommerce Integration Starter](https://github.com/dalerks/ecommerce-integration-starter) | A deployable Next.js/TypeScript/Supabase integration reference with OAuth, webhooks, and product sync |
+| [Shopify Webhook Demo](https://github.com/dalerks/shopify-webhook-demo) | Shopify OAuth, webhook signature verification, order processing, and API integration patterns |
+| [AI Tool-Calling Demo](https://github.com/dalerks/ai-tool-calling-demo) | A multi-turn Node.js/TypeScript agent loop with typed business tools and controlled execution |
+| [Shop Admin Dashboard](https://github.com/dalerks/shopadmin-dashboard) | A responsive Next.js/TypeScript operations UI for ecommerce metrics and order workflows |
 
----
+## Experience
 
-## How I Work
+- Lead and senior engineering experience across healthcare, travel SaaS, ecommerce, and consulting
+- Backend systems built with **Node.js, TypeScript, Python, Django, PHP, PostgreSQL, Redis, and Celery**
+- Cloud delivery with **AWS Lambda, SQS/SNS, DynamoDB, Docker, CI/CD, and infrastructure as code**
+- Production integrations designed for high event volume, safe retries, traceability, and graceful failure recovery
+- Founder of [Lighthouse Consulting](https://www.lighthouseconsult.com), helping organizations deliver custom software, ecommerce integrations, DevOps improvements, and automation
 
-- Ship production-grade code, not prototypes — typed, tested, documented
-- Built integrations that process millions of events without drift or data loss
-- Background in entrepreneurial product development — I care about the business outcome, not just the ticket
-- Founder of [Lighthouse Consulting](https://www.lighthouseconsult.com) — custom software, e-commerce, DevOps, and IT consulting out of Boston, MA
-- Available for Upwork contracts: [upwork.com/freelancers/josephrounds](https://www.upwork.com/freelancers/jrounds) *
+## Engineering principles
 
----
+- Make failure behavior explicit: validate inputs, preserve idempotency, retry safely, and surface actionable telemetry.
+- Keep security and privacy in the design: least privilege, authenticated boundaries, secret management, and auditable operations.
+- Treat tests, documentation, and delivery automation as part of the product—not cleanup work.
+- Optimize for maintainability and business outcomes, not novelty.
 
 <p align="center">
-  <a href="mailto:jrounds@lighthouseconsult.com">jrounds@lighthouseconsult.com</a> &nbsp;·&nbsp;
-  <a href="https://www.lighthouseconsult.com">lighthouseconsult.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/dalerks">GitHub</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/josephrounds">LinkedIn</a>
+  Open to consulting and contract work via
+  <a href="https://www.upwork.com/freelancers/jrounds">Upwork</a>
+  or <a href="mailto:jrounds@lighthouseconsult.com">directly</a>.
 </p>
