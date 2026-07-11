@@ -1,7 +1,7 @@
 <h1 align="center">Joseph Rounds</h1>
 
 <p align="center">
-  <strong>Senior Backend Engineer building reliable cloud systems, SaaS integrations, and healthcare technology</strong>
+  <strong>Senior Backend Engineer designing and building reliable cloud systems, SaaS integrations, and healthcare platforms</strong>
 </p>
 
 <p align="center">
@@ -30,27 +30,39 @@ Most of my production work is private because it belongs to employers and client
 - **Cloud and event-driven architecture** — AWS Lambda, SQS/SNS, DynamoDB, retries, dead-letter handling, and observable asynchronous workflows
 - **API and SaaS integrations** — OAuth, signed webhooks, idempotency, background processing, rate limits, and failure recovery
 - **Healthcare technology** — secure backend services, benefits and third-party data integrations, auditability, and privacy-conscious system design
-- **AI-enabled workflows** — production-oriented tool calling and automation embedded in TypeScript services
+- **AI-native backend systems** — production-oriented tool calling and automation embedded in TypeScript services
 
 ## Flagship project
 
-**[AWS Lambda Event Pipeline](https://github.com/dalerks/aws-lambda-event-pipeline)** — a production-oriented reference architecture for an event-driven order pipeline (API Gateway → Lambda → SQS FIFO → Lambda → DynamoDB), built to the same standard as the systems I run for clients:
+**[AWS Lambda Event Pipeline](https://github.com/dalerks/aws-lambda-event-pipeline)** — a production-oriented reference architecture for an event-driven order pipeline, built to the same standard as the systems I run for clients:
+
+```mermaid
+flowchart LR
+    Client[Client or commerce platform] -->|POST /orders/ingest| API[API Gateway]
+    API --> Ingest[Ingest Lambda]
+    Ingest -->|202 Accepted| Client
+    Ingest -->|dedupe + ordering| Queue[SQS FIFO queue]
+    Queue -->|batch of up to 10| Worker[Processor Lambda]
+    Worker -->|conditional writes| DB[(DynamoDB)]
+    Queue -->|after 3 failed receives| DLQ[SQS FIFO DLQ]
+    DLQ --> Alarm[CloudWatch alarm]
+```
 
 - Complete infrastructure as code in **AWS SAM**, with least-privilege IAM per function
 - **GitHub Actions** CI running tests, coverage, TypeScript compilation, and SAM validation on every push
 - **Jest** unit tests covering validation, partial-batch failures, conditional writes, and idempotency
 - Documented **failure handling**: FIFO deduplication, DLQ after 3 retries, CloudWatch alarms, X-Ray tracing
-- **OpenAPI 3.0** contract, a Mermaid architecture diagram, a Dockerized reproducible build, and an explicit security-scope section describing what a production fork still needs (auth, WAF, KMS, log redaction)
+- **OpenAPI 3.0** contract and an explicit security-scope section describing what a production fork still needs (auth, WAF, KMS, log redaction)
 
 ## Selected work
 
-| Project | Engineering focus |
+| Project | Stack |
 |---|---|
-| [Django Webhook Processor](https://github.com/dalerks/django-webhook-processor) | HMAC verification, idempotent ingestion, Celery workers, Redis, PostgreSQL, Docker, and automated tests |
-| [Ecommerce Integration Starter](https://github.com/dalerks/ecommerce-integration-starter) | A deployable Next.js/TypeScript/Supabase integration reference with OAuth, webhooks, and product sync |
-| [Shopify Webhook Demo](https://github.com/dalerks/shopify-webhook-demo) | Shopify OAuth, webhook signature verification, order processing, and API integration patterns |
-| [AI Tool-Calling Demo](https://github.com/dalerks/ai-tool-calling-demo) | A multi-turn Node.js/TypeScript agent loop with typed business tools and controlled execution |
-| [Shop Admin Dashboard](https://github.com/dalerks/shopadmin-dashboard) | A responsive Next.js/TypeScript operations UI for ecommerce metrics and order workflows |
+| [Django Webhook Processor](https://github.com/dalerks/django-webhook-processor) | HMAC verification • Celery • Redis • PostgreSQL • Docker • tests |
+| [Ecommerce Integration Starter](https://github.com/dalerks/ecommerce-integration-starter) | Next.js • TypeScript • Supabase • OAuth • webhooks • product sync |
+| [Shopify Webhook Demo](https://github.com/dalerks/shopify-webhook-demo) | Shopify OAuth • webhook signatures • order processing |
+| [AI Tool-Calling Demo](https://github.com/dalerks/ai-tool-calling-demo) | Node.js • TypeScript • multi-turn agent loop • typed tools |
+| [Shop Admin Dashboard](https://github.com/dalerks/shopadmin-dashboard) | Next.js • TypeScript • ecommerce metrics • order workflows |
 
 ## Experience
 
