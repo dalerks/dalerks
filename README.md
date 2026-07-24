@@ -1,7 +1,11 @@
 <h1 align="center">Joseph Rounds</h1>
 
 <p align="center">
-  <strong>Senior Backend Engineer designing and building reliable cloud systems, SaaS integrations, and healthcare platforms</strong>
+  <strong>Principal Software Engineer and Cloud Architect building reliable AWS systems, SaaS integrations, healthcare platforms, and AI-enabled applications</strong>
+</p>
+
+<p align="center">
+  Hands-on, still shipping production code — Founder of Lighthouse Consulting
 </p>
 
 <p align="center">
