@@ -1,7 +1,7 @@
 <h1 align="center">Joseph Rounds</h1>
 
 <p align="center">
-  <strong>Principal Software Engineer and Cloud Architect building reliable AWS systems, SaaS integrations, healthcare platforms, and AI-enabled applications</strong>
+  <strong>Principal Software Engineer and Cloud Architect specializing in AWS, Node.js, TypeScript, Python, healthcare platforms, API integrations, and event-driven systems</strong>
 </p>
 
 <p align="center">
