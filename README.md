@@ -20,6 +20,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.josephrounds.dev/">Website</a> ·
   <a href="https://www.linkedin.com/in/josephrounds">LinkedIn</a> ·
   <a href="https://www.lighthouseconsult.com">Lighthouse Consulting</a> ·
   <a href="mailto:jrounds@lighthouseconsult.com">Email</a>
